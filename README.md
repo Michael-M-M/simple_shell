@@ -1,50 +1,64 @@
-# 0x16. C - Simple Shell
+# Simple Shell Project In C
 
-This project is an implementation of the shell created as the final project for the C code sprint at **ALX Africa**.
+ ## This is a ReadMe file for a custom simple UNIX command line interpreter written in C programming language.
 
-## Table of contents :clipboard:
+---
 
- - [Description]
- - [Installation]
- - [Usage]
- - [Example]
- - [Contributors]
- - [Acknowledgements]
-## Description :e-mail:
-This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
-It is based on [the Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell).
+### Table of Contents
 
-## Installation :wrench:
-Clone the below repository and compile the files into an executable using the GCC compiler.
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [Authors](#authors)
+
+---
+
+## Description
+
+This repository contains the source codes for a Simple UNIX command line interpreter program written in C programming language. This project is done as part of our Software Engineering training given by the collaboration of [ALX Africa](https://www.alxafrica.com/) and [Holberton School](https://www.holbertonschool.com/).
+
+#### Technologies
+
+- C
+
+[Back To The Top](#simple-shell-project-in-c)
+
+---
+
+## **How To Use**
+
+
+### *In order to initialize the program, please run the code below
+[Back To The Top](#simple-shell-project-in-c) on a Unix Shell environment.*
+```html
+    ./hsh
 ```
-https://github.com/Fraol123/simple_shell.git.
+### *Here is the list of supported built-in commands*
+```html
+    Commands that are found at the <b>/bin/<b> path.
+    exit - Exits the shell.
+    env - Prints the current environment.
+    setenv - Initializes a new environment or modifies an existing one.
+    unsetenv - Removes an environment variable.
+    cd - Changes current directory of the process.
+    alias - Prints a list of all alliases
+    help - Prints the help documentation.
+    history - Prints list of executed command history
 ```
-##Environment :evergreen_tree::evergreen_tree:
-
-Our shell was built and tested on  Ubuntu 14.04 LTS.
-
-### Basic usage :bulb:
-- First, [fork this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
-- Then [clone it to your local machine](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-- Create an executable by running the following command:
-- `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
-- From there, type in the following command and press your enter button.
-- `./hsh`
-- Final step: ENJOY!
-
-## Example :computer:
+### *Special conditions handled include the following:-*
+```html
+    - Ctrl+C will not exit the shell, instead it is treated as Enter.
+    - ; command separator.
+    - || and && command-line logical operators.
+    - $? and $$ variables.
 ```
-ls -la
-```
-![screenshot of shell](https://user-images.githubusercontent.com/30075600/114757753-e50c2180-9d64-11eb-95ea-fb9bba776c8c.png)
+[Back To The Top](#simple-shell-project-in-c)
 
-## Contributors :sunglasses::muscle:
-* [**Fraol Tolera**](https://github.com/Fraol123)
-* [**Andrew Mukare**](https://github.com/JudgeFudge19)
-* [**Ermias Teshome**](https://github.com/ermiast)
+---
 
-## Acknowledgments :pray:
-- Our fellow cohort members.
-- The creators of the C language.
-- Our software engineer-in-residence.
-- Betty Holberton.
+
+## Authors
+
+- Samson Tedla - [E-mail](samitedla23@gmail.com)
+- Yohannes Zewdu - [E-mail](yohannes.z251@gmail.com)
+
+[Back To The Top](#simple-shell-project-in-c)
