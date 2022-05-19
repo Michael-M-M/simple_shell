@@ -1,2 +1,0 @@
-git@github.com:abraham-al/simple_shell.git
-gh repo clone abraham-al/simple_shell
